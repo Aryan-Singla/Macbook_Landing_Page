@@ -8,8 +8,13 @@ const App = () => {
   return (
     <div className="w-full h-screen relative">
       {/* Overlay text */}
-      <div className="absolute flex flex-col items-center text-white top-31 left-1/2 transform -translate-x-1/2 font-['Helvetica_Now_Display']">
-        <h3 className="text-7xl tracking-tighter">macbook pro</h3>
+      <div className="absolute flex flex-col items-center text-white top-30 left-1/2 -translate-x-1/2 font-helvetica">
+        <h3 className="text-7xl tracking-tighter font-bold mt-10">
+          macbook pro.
+        </h3>
+        <p className="text-center width-3/4 mt-8 font-medium">
+          Welcome to the world of the Apple
+        </p>
       </div>
 
       {/* 3D Canvas */}
@@ -21,7 +26,7 @@ const App = () => {
           ]}
         />
         {/* ScrollControls for handling scroll events */}
-        <ScrollControls pages={3}>
+        <ScrollControls pages={3} className="hide-scrollbar">
           <MacContainer />
         </ScrollControls>
       </Canvas>
