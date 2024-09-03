@@ -10,7 +10,7 @@ const App = () => {
       {/* Overlay text */}
       <div className="absolute flex flex-col items-center text-white top-30 left-1/2 -translate-x-1/2 font-helvetica">
         <h3 className="text-7xl tracking-tighter font-bold mt-10">
-          macbook pro.
+          MacBook Pro.
         </h3>
         <p className="text-center width-3/4 mt-8 font-medium">
           Welcome to the world of the Apple
